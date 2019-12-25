@@ -1,0 +1,35 @@
+{
+  "name": "cosjs.redis",
+  "description": "redis",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": {
+    "name": "wanchao.huang",
+    "email": "hwclegend@163.com"
+  },
+  "keywords": [ "redis" ],
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "ioredis":"*",
+    "cosjs.library": "*"
+  },
+  "engines": {
+    "node": "12.0+"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/hwclegend/cosjs.redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hwclegend/cosjs.redis/issues"
+  },
+  "homepage": "https://github.com/hwclegend/cosjs.redis"
+}
